@@ -23,11 +23,17 @@ div {
 h1, h3{
     padding: 0px;
     margin: 10px;
-    font-size: 50px;
+    font-size: 75px;
     color: #ffe3e3;
     
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
+
+h3{
+    font-size: 40px;
+
+}
+
 p {
     margin: 3% 9% auto;
     width: 95%;
@@ -42,7 +48,6 @@ p {
 #outputDiv {
     color: #ffffff;
 
-    background-color: #e90baa6d;
 
     padding: 0%;
     margin-top: 2%;
