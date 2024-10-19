@@ -11,11 +11,11 @@ const outputElement = document.getElementById('output');
 
 
 function randint() {
-  return Math.floor(Math.random() * 2) + 1;
+  return Math.floor(Math.random() * 3) + 1;
 }
 
 
-function getPhase() {
+function getPhrase() {
   var TEXT = "test"
   
   if (randint() === 1) {
@@ -63,7 +63,33 @@ function getPhase() {
 
   }
   
+  getimg();
+  
   return TEXT
 }
 
 
+
+function getimg(){
+  
+  if (randint() === 1) {
+    document.getElementById("randimg").setAttribute('src', './ex/face1.png');
+    document.getElementById("randimg").style.paddingLeft = "75px"; 
+  } 
+  
+  else if(randint() == 2){
+    document.getElementById("randimg").setAttribute('src', './ex/face2.png');
+    // document.getElementById("randimg").style.width = "50%"; 
+    document.getElementById("randimg").style.paddingLeft = "0%"; 
+
+  }
+  
+  else {
+    document.getElementById("randimg").setAttribute('src', './ex/face3.png');
+    document.getElementById("randimg").style.paddingLeft = "0px"; 
+
+    
+  }
+
+
+}

@@ -1,8 +1,20 @@
 body {
     background-color: #5c7ddf;
+    
     text-transform: capitalize;
+    /* border-radius: 50%; */
+
+    /* margin: 5% auto; */
+
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+    font-size: xx-large;
+}
 
 div {
     background-color: rgb(31, 1, 96);
@@ -11,12 +23,19 @@ div {
     padding: 5px;
     color: #d8d5d5;
     border-radius: 5px;
-} 
+    
+    
+}
+
+#content{
+
+    background-image: url("FUN FACTS.png");
+}
 
 #output {
     width: auto;
     padding: 0px 20px;
-    
+
     margin-bottom: 5%;
     /* padding-bottom: 0%;
     padding-top: 0%; */
@@ -24,6 +43,8 @@ div {
     height: auto;
     text-align: center;
     border-radius: 5px;
+
+    font-size: large;
 }
 
 #outputDiv {
@@ -43,4 +64,31 @@ img {
     padding-left: 100px;
     padding-top: 0%;
 
+}
+
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #008CBA; 
+    border: 2px solid #0057ba;
+    
+    color: #FFFFFF;
+}
+  
+button:hover {
+    background-color: #0057ba;
+    color: "#008CBA";
 }
