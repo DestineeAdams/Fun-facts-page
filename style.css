@@ -1,94 +1,72 @@
-body {
-    background-color: #5c7ddf;
-    
-    text-transform: capitalize;
-    /* border-radius: 50%; */
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
-    /* margin: 5% auto; */
-
-    display: flex;
-    justify-content: center;
-    
-    font-family: 'Courier New', Courier, monospace;
+/* .neonderthaw-regular {
+    font-family: "Neonderthaw", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-
-h1 {
-    font-size: xx-large;
+   */
+  
+body {
+    background-color: #000000;
+    text-transform: capitalize;
+    font-family: "Neonderthaw";
+    color: #e028e5;
 }
 
 div {
-    background-color: rgb(31, 1, 96);
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h3{
+    padding: 0px;
+    margin: 10px;
+    font-size: 50px;
+}
+p {
+    margin: 3% 9% auto;
+    width: 95%;
+    font-size: x-large;
     text-align: center;
-    padding: 5px;
-    color: #d8d5d5;
-    border-radius: 5px;
-    
-    
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
-#content{
 
-    background-image: url("FUN FACTS.png");
-}
-
-#output {
-    width: auto;
-    padding: 0px 20px;
-
-    margin-bottom: 5%;
-    /* padding-bottom: 0%;
-    padding-top: 0%; */
-
-    height: auto;
-    text-align: center;
-    border-radius: 5px;
-
-    font-size: large;
-}
 
 #outputDiv {
-    background-color: rgb(72, 9, 206);
-    width: auto;
-    margin: 50px 60px;
-    padding: 20px;
+    color: #ffffff;
 
-    height: auto;
-    text-align: center;
-    border-radius: 5px;
+    background-color: #d400ff35;
+
+    padding: 0%;
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 30%;
+
+
 }
 
-img {
-    /* float: right; */
-    width: 50%;
-    padding-left: 100px;
-    padding-top: 0%;
-
+#randimg {
+    width: 30%;
 }
 
 button {
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;
+    /* width: 0%; */
+    box-shadow: 0 8px 16px 0 rgba(143, 57, 247), 0 6px 20px 0 rgba(202, 16, 16);
+    border-radius: 2px;
+    margin-top: 1%;
+    padding: 3px 20px;
 }
 
-
-button {
-    background-color: #008CBA; 
-    border: 2px solid #0057ba;
-    
-    color: #FFFFFF;
-}
-  
 button:hover {
-    background-color: #0057ba;
-    color: "#008CBA";
+    background-color: #04AA6D;
+    color: white;
+
+
+    box-shadow: 0 12px 16px 0, rgb(202, 16, 16), 0 17px 50px 0 rgb(202, 16, 16);
+
 }

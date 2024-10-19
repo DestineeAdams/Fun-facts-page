@@ -74,19 +74,19 @@ function getimg(){
   
   if (randint() === 1) {
     document.getElementById("randimg").setAttribute('src', './ex/face1.png');
-    document.getElementById("randimg").style.paddingLeft = "75px"; 
+    document.getElementById("randimg").style.paddingLeft = "25%"; 
   } 
   
   else if(randint() == 2){
     document.getElementById("randimg").setAttribute('src', './ex/face2.png');
     // document.getElementById("randimg").style.width = "50%"; 
-    document.getElementById("randimg").style.paddingLeft = "0%"; 
+    document.getElementById("randimg").style.paddingLeft = "15%"; 
 
   }
   
   else {
     document.getElementById("randimg").setAttribute('src', './ex/face3.png');
-    document.getElementById("randimg").style.paddingLeft = "0px"; 
+    document.getElementById("randimg").style.paddingLeft = "8%"; 
 
     
   }
