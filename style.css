@@ -22,24 +22,30 @@ div {
     align-items: center;
 }
 
-h1, h3{
-    padding: 0px;
-    margin: 10px;
-    font-size: 75px;
+h1{
+    padding: 0%;
+    margin: 5% 1%;
+    font-size: xxx-large;
     color: #ffe3e3;
+    
+    text-align: center;
     
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 h3{
-    font-size: 40px;
+    font-size: large;
+    margin: 2% 0% 9%;
 
 }
 
 p {
-    margin: 3% 9% auto;
-    width: 95%;
-    font-size: x-large;
+    /* margin: 3% 9% auto; */
+    /* width: 95%; */
+    padding: 5%;
+    margin: 0%;
+    
+    font-size: large;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 
@@ -51,10 +57,10 @@ p {
     color: #ffffff;
 
 
-    padding: 0%;
-    margin-top: 2%;
+    /* padding: 5% 15%; */
+    /* margin-top: 2%; */
     border-radius: 10px;
-    width: 30%;
+    width: 75%;
     
     box-shadow: 10px 10px 103px  #a10cbf;
 
@@ -67,10 +73,11 @@ p {
 button {
     transition-duration: 0.4s;
     /* width: 0%; */
-    box-shadow: 0 8px 16px 0 rgba(143, 57, 247), 0 6px 20px 0 rgba(202, 16, 16);
+    /* box-shadow: 0 8px 16px 0 rgba(143, 57, 247), 0 6px 20px 0 rgba(202, 16, 16); */
     border-radius: 2px;
     margin-top: 1%;
-    padding: 3px 20px;
+    margin-bottom: 15%;
+    padding: 1% 10%;
 }
 
 button:hover {
