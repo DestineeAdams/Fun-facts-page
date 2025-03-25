@@ -1,10 +1,10 @@
+let woosh = new Audio('./woosh-230554.mp3');
 
 document.querySelector('button').addEventListener('click', () => {
-  getimg();
-  gietApi();
+    getimg();
+    gietApi();
+    woosh.play();
 })
-
-
 
 
 function randint() {
@@ -44,15 +44,8 @@ function gietApi() {
   .catch(err => {
       console.log(`error ${err}`)
   });
-
-  
   }
-  
-
-
 }
-
-
 
 function getimg(){
   
