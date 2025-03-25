@@ -18,12 +18,12 @@ function gietApi() {
   
   if(coinFlip == 1) {
   
-    fetch("https://techy-api.vercel.app/api/json")
+    fetch("https://uselessfacts.jsph.pl/api/v2/facts/random")
     .then(res => res.json()) // parse response as JSON
     .then(data => {
       // console.log(data)
-      // console.log(data.message)
-      document.querySelector('p').innerText = data.message;
+      // console.log(data.text)
+      document.querySelector('p').innerText = data.text;
 
     })
     .catch(err => {
