@@ -1,4 +1,5 @@
-# My Awesome Project
+# Fun-facts-page
+
 This project utilizes two APIs to provide users with random, useless facts.
 
 **Link to project:** https://destineeadams.github.io/Fun-facts-page/
@@ -9,4 +10,4 @@ This project utilizes two APIs to provide users with random, useless facts.
 
 **Tech used:** html, JavaScript, CSS, meow facts api , useless facts api
 
-both the photos and text are randomly choosen.
+both the photos and text are randomly chosen.
