@@ -40,8 +40,14 @@ h3{
 
 }
 
-p {
-  font-family: 'Courier New', Courier, monospace;
+
+p, a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    color: #d726dc;
 }
 
 img {
