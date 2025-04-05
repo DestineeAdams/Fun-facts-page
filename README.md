@@ -4,7 +4,7 @@ This project utilizes two APIs to provide users with random, useless facts.
 
 **Link to project:** https://destineeadams.github.io/Fun-facts-page/
 
-![demo gif](https://semii.space/files/RandomFunFacts.gif)
+![demo gif](https://github.com/DestineeAdams/portfolio-Website/blob/main/files/RandomFunFacts.gif?raw=true)
 
 ## How It's Made:
 
