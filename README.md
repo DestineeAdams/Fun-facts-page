@@ -1,7 +1,7 @@
-# Fun-facts-page
+# Random Fun Facts
 
-This project utilizes two APIs to provide users with random, useless facts.
-
+A fun browser based app that pulls from multiple public APIs to deliver weird, useless, and interesting facts.
+    
 **Link to project:** https://destineeadams.github.io/Fun-facts-page/
 
 ![demo gif](https://github.com/DestineeAdams/portfolio-Website/blob/main/files/RandomFunFacts.gif?raw=true)
